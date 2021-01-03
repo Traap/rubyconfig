@@ -1,3 +1,7 @@
+puts "CC = #{RbConfig::CONFIG['CC']}"
+puts "CC_VERSION = #{RbConfig::CONFIG['CC_VERSION']}"
+puts "CC_VERSION_MESSAGE = #{RbConfig::CONFIG['CC_VERSION_MESSAGE']}"
+puts "arch = #{RbConfig::CONFIG['arch']}"
 puts "arch = #{RbConfig::CONFIG['arch']}"
 puts "host = #{RbConfig::CONFIG['host']}"
 puts "host_alias =#{RbConfig::CONFIG['host_alias']}"
